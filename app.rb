@@ -17,4 +17,5 @@ class App < Sinatra::Base
     @click_button=params["submit"]
     erb :team
   end
+end 
 end
